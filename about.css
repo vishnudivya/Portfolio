@@ -615,6 +615,7 @@ hr {
 
     .nav-item img {
         max-width: 30%;
+        filter: invert();
         height: auto;
     }
 
