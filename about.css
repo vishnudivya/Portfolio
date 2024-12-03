@@ -21,6 +21,7 @@ body {
     margin: 0 15px;
 }
 
+
 .navbar-collapse {
     justify-content: center;
 }
@@ -434,9 +435,18 @@ hr {
         padding: 0.5rem;
     }
 
-    .custom-navbar {
-        margin-left: 0;
-        padding: 0 1rem;
+    .navbar-nav {
+        font-size: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .nav-item img {
+        max-width: 30%;
+        height: auto;
     }
 
     /* info-section  */
@@ -498,11 +508,17 @@ hr {
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .navbar-nav .nav-item {
+        padding: 0;
         margin: 0 auto;
+    }
+
+    .nav-item img {
+        max-width: 30%;
+        height: auto;
     }
 
     .navbar-collapse {
@@ -588,12 +604,18 @@ hr {
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 20px;
+        font-size: 13px;
     }
 
 
     .navbar-nav .nav-item {
+        padding: 0;
         margin: 0 auto;
+    }
+
+    .nav-item img {
+        max-width: 30%;
+        height: auto;
     }
 
     .navbar-collapse {
