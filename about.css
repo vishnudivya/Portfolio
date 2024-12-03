@@ -446,6 +446,7 @@ hr {
 
     .nav-item img {
         max-width: 30%;
+        filter: invert();
         height: auto;
     }
 
@@ -518,6 +519,7 @@ hr {
 
     .nav-item img {
         max-width: 30%;
+        filter: invert();
         height: auto;
     }
 
