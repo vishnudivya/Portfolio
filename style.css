@@ -181,8 +181,8 @@ hr {
 .work {
     background-color: #161515;
     border-radius: 15px;
-    height: 180px;
-    width: 300px;
+    height: auto;
+    width: 100%;
     margin-top: 2rem;
     margin-left: 20px;
 }
@@ -202,6 +202,8 @@ hr {
     max-width: 100%;
     /* Ensure it stays within the container width */
 }
+
+
 
 
 /* For screens larger than 1311px (larger laptop screen) */
@@ -552,6 +554,7 @@ hr {
     .what-doing {
         width: 100%;
         height: auto;
+        padding: 0 1.3rem 0 1.3rem;
     }
 
     .img-container {
@@ -562,6 +565,7 @@ hr {
         width: 100%;
         height: auto;
         margin-top: 2rem;
+        margin-left: 0;
     }
 }
 
@@ -639,6 +643,7 @@ hr {
         width: 100%;
         height: auto;
         margin: 2rem 0;
+        padding: 0 1.3rem 0 1.3rem;
     }
 
     .img-container {
@@ -649,5 +654,6 @@ hr {
         width: 100%;
         height: auto;
         margin-top: 2rem;
+        margin-left: 0;
     }
 }
