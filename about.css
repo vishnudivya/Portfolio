@@ -479,7 +479,7 @@ hr {
 }
 
 /* For screens smaller than 1024px (Laptop) */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     body {
         font-size: 20px;
     }
@@ -573,9 +573,11 @@ hr {
 
 }
 
+/* For screens  than 992px (tablets / mobile devices) */
+
 
 /* For screens smaller than 768px (tablets / mobile devices) */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body {
         font-size: 20px;
     }
