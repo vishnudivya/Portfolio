@@ -336,7 +336,7 @@ hr {
     .navbar {
         background: linear-gradient(90deg, #2A2A2A, #231f1f);
         padding: 0.5rem 0;
-        border-radius: 0 0 5vw 5vw;
+        border-radius: 0 0 20vw 20vw;
 
     }
 
@@ -450,7 +450,7 @@ hr {
     .navbar {
         background: linear-gradient(90deg, #2A2A2A, #231f1f);
         padding: 0.5rem 0;
-        border-radius: 0;
+        border-radius: 0 0 20vw 20vw;
     }
 
     .navbar-nav {
