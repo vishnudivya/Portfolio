@@ -285,32 +285,13 @@ hr {
         padding: 2rem 1rem;
     }
 
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
     }
 }
 
@@ -391,39 +372,18 @@ hr {
         object-fit: cover;
     }
 
-
-
     /* info-section */
     .info-section {
         padding: 2rem 1rem;
-    }
-
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
     }
 
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
     }
 }
 
@@ -505,39 +465,18 @@ hr {
         object-fit: cover;
     }
 
-
-
     /* info-section */
     .info-section {
         padding: 2rem 1rem;
-    }
-
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
     }
 
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
     }
 
 }
@@ -627,32 +566,13 @@ hr {
         padding: 2rem 1rem;
     }
 
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0 0 1.3rem 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
     }
 
 }
@@ -733,8 +653,6 @@ hr {
         cursor: pointer;
     }
 
-
-
     /* info-section */
     .info-section {
         max-width: 100%;
@@ -742,33 +660,15 @@ hr {
         padding: 2rem 1rem;
     }
 
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0 0 1.3rem 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
     }
+
 }
 
 /* For screen $Extra Small Devices (Phones) */
@@ -862,32 +762,18 @@ hr {
         padding: 2rem 1rem;
     }
 
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0 0 1.3rem 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
     .img-container {
         height: 100px;
     }
 
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
+    /* infoAll-section */
+    .infoAll-section {
+        padding: 2rem 2rem;
+    }
+
+    /* resume-container */
+    .resume-container {
+        margin-bottom: 1rem;
     }
 
 }
