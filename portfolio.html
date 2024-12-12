@@ -12,109 +12,114 @@
 </head>
 
 <body>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-md custom-navbar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-                <li class="nav-item me-4">
-                    <a class="nav-item nav-link  text-white" href="about.html">About</a>
-                </li>
-                <li class="nav-item me-4">
-                    <a class="nav-item nav-link text-white" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item me-4">
-                    <a class="nav-item nav-link active text-white" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item me-4">
-                    <a class="nav-item nav-link text-white" href="blog.html">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-       <!-- Popup Form -->
-       <div id="popupForm" class="popup">
-        <div class="popup-content">
-            <span id="closePopup" class="close">&times;</span>
-            <!-- Popup-img & Design -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 overflow-hidden d-flex">
-                        <div class="form-img">
-                            <img src="IMG/cuate.png" alt="form-img">
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 form_text p-4">
-                        <h2 class="fw-bold text-white mt-3 p-1">Work With Us</h2>
-                       
-                        <form class="fw-bold mt-1 p-2">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
-
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-
-                            <button type="submit" class="btn">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg fixed-bottom fixed-md-bottom" type="">
+    <div class="container-fluid">
+      <div class="navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li class="nav-item me-md-4">
+            <img class="img-fluid d-lg-none" src="IMG/Male User.png" alt="male-use-about">
+            <a class="nav-item nav-link text-white" href="about.html">About</a>
+          </li>
+          <li class="nav-item me-md-4">
+            <img class="img-fluid d-lg-none" src="IMG/Attach Resume Male.png" alt="resume">
+            <a class="nav-item nav-link text-white" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item me-md-4">
+            <img class="img-fluid d-lg-none" src="IMG/Resume.png" alt="portfolio">
+            <a class="nav-item nav-link text-white active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item me-md-4">
+            <img class="img-fluid d-lg-none" src="IMG/stroke-Blogger.png" alt="blog">
+            <a class="nav-item nav-link text-white" href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    
-    <!-- Info-section -->
-    <div class="container">
+  <!-- Popup Form -->
+  <div id="popupForm" class="popup">
+    <div class="popup-content">
+      <span id="closePopup" class="close">&times;</span>
+      <!-- Popup-img & Design -->
+      <div class="container">
         <div class="row">
-            <div class="info-section col-md-4">
-                <div class="p-5">
-                    <h3 class="">Vishnu</h3>
-                    <h3>Divya</h3>
-                    <div class="img-container">
-                        <img src="IMG/working.png" alt="character face">
-                    </div>
-                    <div class="d-flex mt-5">
-                        <div class="d-inline-block"><img src="IMG/Emaill.png" alt="email">
-                        </div>
-                        <div class="me-3 d-inline-block">
-                            <h6>Email</h6>
-                            <h6>Vishnudivyaaa@gmail.com</h6>
-                        </div>
-
-                    </div>
-                    <div class="d-flex mt-5">
-                        <div class="d-inline-block">
-                            <img src="IMG/Phonee.png" alt="phone">
-                        </div>
-                        <div class="me-3 d-inline-block" ><h6>Phone</h6>
-                            <h6>+91 870 92 63411</h6></div>
-                        
-                    </div>
-                    <div class="d-flex mt-5">
-                        <div class="d-inline-block"><img src="IMG/Locationn.png" alt="location"></div>
-                        <div class="me-3 d-inline-block"><h6>Location</h6>
-                            <h6>Bangalore</h6></div>
-                        
-                    </div>
-                  <!-- Button styling -->
-                  <div class="mt-5 container justify-content-centre align-items-center">
-                    <div>
-                        <button id="openPopup" class="btn">Let's work together</button>
-                    </div>
-                </div>
-                </div>
+          <div class="col-lg-6 overflow-hidden d-flex">
+            <div class="form-img">
+              <img src="IMG/cuate.png" alt="form-img">
             </div>
+          </div>
+
+          <div class="col-lg-6 form_text p-4">
+            <h2 class="fw-bold text-white mt-3 p-1">Work With Us</h2>
+
+            <form class="fw-bold mt-1 p-2">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info-section -->
+  <div class="container mt-lg-5">
+    <div class="row">
+      <div class="info-section col-lg-4">
+        <div class="mt-md-5 p-3">
+          <h3 class="">Vishnu</h3>
+          <h3>Divya</h3>
+          <div class="img-container">
+            <img src="IMG/working.png" alt="character face">
+          </div>
+          <div class="d-flex mt-5">
+            <div class="d-inline-block"><img src="IMG/Emaill.png" alt="email">
+            </div>
+            <div class="me-3 d-inline-block">
+              <h6>Email</h6>
+              <h6>Vishnudivyaaa@gmail.com</h6>
+            </div>
+
+          </div>
+          <div class="d-flex mt-5">
+            <div class="d-inline-block">
+              <img src="IMG/Phonee.png" alt="phone">
+            </div>
+            <div class="me-3 d-inline-block">
+              <h6>Phone</h6>
+              <h6>+91 870 92 63411</h6>
+            </div>
+
+          </div>
+          <div class="d-flex mt-5">
+            <div class="d-inline-block"><img src="IMG/Locationn.png" alt="location"></div>
+            <div class="me-3 d-inline-block">
+              <h6>Location</h6>
+              <h6>Bangalore</h6>
+            </div>
+
+          </div>
+          <!-- Button styling -->
+          <div class="mt-5 container justify-content-centre align-items-center">
+            <div>
+              <button id="openPopup" class="btn">Let's work together</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
             <!-- Portfolio Section -->
-            <div id="portfolio" class="infoAll-section col-md-8">
+            <div id="portfolio" class="infoAll-section col-lg-8">
                 <div>
                     <h2 class="d-inline-block">Portfolio</h2>
                     <hr>
@@ -128,22 +133,21 @@
                     </ul>
                 </div>
 
-                <div class="container w-100 mt-4">
+                <div class="container mt-4">
                     <div class="row">
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100"><a href=""><img src="IMG/PCOS.png"
                                         alt="Pcos-image"></a>
                             </div>
 
-
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100"><a href=""><img src="IMG/Travel post - upwork.png"
                                         alt="travel-logo"></a>
                             </div>
 
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100"><a href=""><img src="IMG/IVALogo.png"
                                         alt="iva-logo"></a></div>
 
@@ -153,43 +157,43 @@
 
                 <div class="container w-100 mt-4">
                     <div class="row">
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
                                 <a href=""><img src="IMG/Vishnu logo.png" alt="v-logo"></a>
                             </div>
 
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
                                 <a href=""><img src="IMG/Mobile posts - upwork.png" alt="mobile-posts"></a>
                             </div>
 
 
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
-                                <a href=""><img src="IMG/Screenshot 2024-11-22 at 8.50.34 PM.png" alt="uiux"></a>
+                                <a href=""><img src="IMG/Artboard 3.png" alt="uiux"></a>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="container w-100 mt-4">
+                <div class="container mt-4">
                     <div class="row">
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
                                 <a href=""><img src="IMG/DHCLOGO-01.png" alt="dhc"></a>
                             </div>
 
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
                                 <a href=""><img src="IMG/Yoga Post 1.png" alt="yoga"></a>
                             </div>
 
                         </div>
-                        <div class="allWork col-md-4 me-3 p-0">
+                        <div class="allWork col-lg-4 me-lg-3 p-0">
                             <div class="portfolio-work w-100 h-100">
                                 <a href=""><img src="IMG/Artboard 1.png" alt="rune"></a>
                             </div>
