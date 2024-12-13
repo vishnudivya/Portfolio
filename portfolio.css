@@ -200,7 +200,7 @@ hr {
 }
 
 .portfolio-work {
-    /* border: 1px solid #ccc; */
+    border-radius: 0.8rem;
     overflow: hidden;
 }
 
@@ -498,8 +498,27 @@ hr {
         padding: 2rem 2rem;
     }
 
-}
+    /* allWork Section */
+    .allWork {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
 
+    .portfolio-work {
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+    .portfolio-work img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
 
 /* For screens $Medium Devices (Tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -576,8 +595,6 @@ hr {
         cursor: pointer;
     }
 
-
-
     /* info-section */
     .info-section {
         max-width: 100%;
@@ -594,6 +611,22 @@ hr {
         padding: 2rem 2rem;
     }
 
+    /* portfolio  */
+
+    #portfolio {
+        height: auto;
+    }
+
+    #portfolio .container {
+        margin-bottom: 1.5rem;
+    }
+
+    /* allWork Section */
+
+    .portfolio-work {
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
 }
 
 /* For screens $Small Devices (Large Phones)*/
@@ -685,9 +718,39 @@ hr {
 
     /* infoAll-section */
     .infoAll-section {
-        padding: 2rem 2rem;
+        padding: 3rem 0.5rem;
+
     }
 
+    /* portfolio  */
+
+    #portfolio .container {
+        margin-bottom: 1.5rem;
+    }
+
+    /* allWork Section */
+    .allWork {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #161515;
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .portfolio-work {
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+    .portfolio-work img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 /* For screen $Extra Small Devices (Phones) */
@@ -790,7 +853,7 @@ hr {
     }
 
     /* portfolio  */
-    
+
     #portfolio .container {
         margin-bottom: 1.5rem;
     }
