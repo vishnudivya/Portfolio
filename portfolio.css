@@ -498,15 +498,6 @@ hr {
         padding: 2rem 2rem;
     }
 
-    /* allWork Section */
-    .allWork {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        margin-bottom: 1.5rem;
-    }
-
     .portfolio-work {
         border-radius: 0.8rem;
         overflow: hidden;
