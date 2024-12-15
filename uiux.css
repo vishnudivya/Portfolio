@@ -115,6 +115,10 @@ body {
     border-radius: 5px;
 }
 
+.form-img {
+    overflow: hidden;
+}
+
 .form-img img {
     max-width: 100%;
     height: auto;
