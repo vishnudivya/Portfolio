@@ -193,12 +193,9 @@ hr {
 
 
 .ui-work {
-  display: block;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 10px;
   border-radius: 10px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   background-color: #161515;
   overflow: hidden;
