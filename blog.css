@@ -42,12 +42,44 @@ body {
     /* Default behavior */
 }
 
+/* Blog Section */
+
+
+.main-blog-img {
+    position: relative; 
+    width: 100%;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .overlay-text h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .overlay-text p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+
 .main-blog-img img {
     width: 100%;
-    height: 100%;
+    height: 70vh;
     border-radius: 0.8rem;
     object-fit: cover;
 }
+
 
 .blog-box {
     width: 100%;
@@ -58,13 +90,40 @@ body {
 
 
 .blog-box img {
-    width: 100%;
+    width: 20vw;
     height: 30vh;
     object-fit: cover;
 }
 
 
+/* blog-container-wrapper  */
+  .blog-container-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
 
+  .blog-container {
+    overflow-x: auto;
+    display: flex;
+    gap: 20px; 
+    scroll-behavior: smooth; 
+    padding: 10px;
+  }
+
+
+  .scroll-button {
+    background-color: #038C73;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .scroll-button:hover {
+    background-color: #50a3f6;
+  }
 
 
 /* For screens $Ultra-Wide Screens */
