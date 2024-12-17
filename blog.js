@@ -1,21 +1,22 @@
-// form 
-const openPopup = document.getElementById('openPopup');
-const closePopup = document.getElementById('closePopup');
-const popupForm = document.getElementById('popupForm');
 
-// Open the popup
-openPopup.addEventListener('click', () => {
-  popupForm.style.display = 'flex'; // Show the popup
-});
+  const blogContainer = document.querySelector('.blog-container');
+  const scrollLeftButton = document.getElementById('scroll-left');
+  const scrollRightButton = document.getElementById('scroll-right');
+  const scrollAmount = 300; // Adjust scroll distance per button click
 
-// Close the popup
-closePopup.addEventListener('click', () => {
-  popupForm.style.display = 'none'; // Hide the popup
-});
+  // Scroll Left Functionality
+  scrollLeftButton.addEventListener('click', () => {
+    blogContainer.scrollBy({
+      left: -scrollAmount,
+      behavior: 'smooth',
+    });
+  });
 
-// Close the popup when clicking outside the form
-window.addEventListener('click', (event) => {
-  if (event.target === popupForm) {
-    popupForm.style.display = 'none';
-  }
-});
+  // Scroll Right Functionality
+  scrollRightButton.addEventListener('click', () => {
+    blogContainer.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth',
+    });
+  });
+
