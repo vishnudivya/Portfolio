@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
 }
 
 /* navbar */
@@ -42,165 +42,26 @@ body {
     /* Default behavior */
 }
 
-
-/* Popup Container */
-
-#popupForm .popup-content {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-
-.popup {
-    display: none;
-    /* Initially hidden */
-    position: fixed;
-    top: 0;
-    left: 0;
+.main-blog-img img {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-/* Popup Content */
-.popup-content {
-    color: #161515;
-    background: linear-gradient(67.7deg, rgb(252, 185, 125) -0.9%, rgb(245, 231, 106) 22.8%, rgb(160, 236, 208) 50.3%, rgb(57, 178, 209) 75.5%, rgb(183, 174, 193) 100.2%);
-    border-radius: 10px;
-    width: 70%;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-}
-
-.popup-content h2 {
-    margin-top: 0;
-}
-
-/* Close Button */
-.popup-content .close {
-    position: absolute;
-    top: 1px;
-    right: 10px;
-    font-size: 1.4rem;
-    cursor: pointer;
-}
-
-/* Form Elements */
-.popup-content form input,
-.popup-content form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.popup-content form button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Popup-img & Design */
-#popupForm .container {
-    margin: 15px 0 15px 0;
-    border: 8px solid #263238;
-    border-radius: 5px;
-}
-
-.form-img img {
-    max-width: 100%;
-    height: auto;
+    border-radius: 0.8rem;
     object-fit: cover;
-}
-
-/* Button styling */
-.btn {
-    width: 100%;
-    text-decoration: none;
-    background-color: #D9AC64;
-    border-radius: 14px;
-    border: none;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-/* Info-section */
-.info-section {
-    background-color: #161515;
-    border-radius: 15px;
-    height: 800px
-}
-
-.img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 15px;
-    margin-top: 2rem;
-    height: 30vh;
-}
-
-.img-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-.infoAll-section {
-    padding: 6rem 0 1rem 4rem;
-}
-
-
-/* hr */
-hr {
-    width: 8%;
-    height: 0.7vh;
-    margin-bottom: 30px;
-    border: none;
-    background-color: #D9AC64;
-}
-
-/* Blog section */
-
-.what-doing {
-    margin-top: 3rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow: hidden;
-    white-space: normal;
-    max-width: 100%;
-}
-
-
-.blog-container {
-    display: flex;
-    flex-direction: column;
 }
 
 .blog-box {
-    background-color: white;
-    border-radius: 15px;
-    border: 2px red solid;
-    height: auto;
     width: 100%;
-    margin-bottom: 1rem;
+    height: auto;
+    border-radius: 0.8rem;
+    overflow: hidden;
 }
 
+
+.blog-box img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
 
 
 
@@ -244,89 +105,6 @@ hr {
     .navbar-collapse {
         justify-content: center;
     }
-
-    /* popup-Form */
-    .popup-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .popup-content h2 {
-        font-size: 2rem;
-    }
-
-    .popup-content form input,
-    .popup-content form textarea {
-        padding: 0.1rem;
-    }
-
-    .popup-content form button {
-        padding: 6px 14px;
-    }
-
-    /* Close Button */
-    .popup-content .close {
-        position: absolute;
-        top: 0.5px;
-        right: 10px;
-        font-size: 0.9rem;
-        cursor: pointer;
-    }
-
-
-        /* Close Button */
-        .popup-content .close {
-            position: absolute;
-            top: 0.5;
-            right: 20px;
-            font-size: 1.8rem;
-            cursor: pointer;
-        }
-    
-        /* popup IMG */
-        .form-img img {
-            max-width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-
-
-    /* info-section */
-    .info-section {
-        padding: 2rem 1rem;
-    }
-
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
-    .img-container {
-        height: 100px;
-    }
-
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
-    }
 }
 
 
@@ -366,79 +144,6 @@ hr {
 
     .navbar-collapse {
         justify-content: center;
-    }
-
-    /* popup-Form */
-    .popup-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .popup-content h2 {
-        font-size: 2rem;
-    }
-
-    .popup-content form input,
-    .popup-content form textarea {
-        padding: 0.1rem;
-    }
-
-    .popup-content form button {
-        padding: 6px 14px;
-    }
-
-    /* Close Button */
-    .popup-content .close {
-        position: absolute;
-        top: 0.5;
-        right: 20px;
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-
-    /* popup IMG */
-    .form-img img {
-        max-width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-
-
-    /* info-section */
-    .info-section {
-        padding: 2rem 1rem;
-    }
-
-    .infoAll-section {
-        padding: 2rem 2rem;
-    }
-
-    /* what-i'm-doing-work */
-    #what-doing-work {
-        margin-top: 2rem;
-        padding: 0;
-    }
-
-    .what-doing {
-        width: 100%;
-        height: auto;
-        margin: 2rem 0;
-        padding: 0 1.3rem 0 1.3rem;
-    }
-
-    .img-container {
-        height: 100px;
-    }
-
-    .work {
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-        margin-left: 0;
     }
 }
 
